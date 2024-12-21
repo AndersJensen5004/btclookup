@@ -7,7 +7,8 @@ from fredapi import Fred
 from dotenv import load_dotenv
 import os
 
-# Load environment variables from .env file
+# Works to calculate roling sharpe on BTC
+
 load_dotenv()
 FRED_API_KEY = os.getenv('FRED_API')
 
